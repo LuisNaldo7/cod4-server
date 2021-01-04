@@ -1,2 +1,2 @@
 #!/bin/bash
-./cod4_lnxded +set fs_game "mods/customMaps" +map mp_home +exec server_config/server.cfg
+./cod4_lnxded +exec server_config/server.cfg +set loc_language 0 +set dedicated 2 +set sv_punkbuster 0 +map_rotate

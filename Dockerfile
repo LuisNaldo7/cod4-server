@@ -10,7 +10,6 @@ WORKDIR /cod4
 
 # copy game files
 COPY main ./main
-COPY usermaps ./usermaps
 COPY zone ./zone
 COPY ["cod4_lnxded", "cod4_lnxded-bin", "libgcc_s.so.1", "libstdc++.so.6", "start.sh", "./"]
 
