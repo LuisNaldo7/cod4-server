@@ -5,6 +5,10 @@ RUN dpkg --add-architecture i386
 RUN apt-get update
 RUN apt-get install -y libstdc++6:i386 libselinux1:i386
 
+# operate as non-privileged user
+RUN useradd cod
+USER cod
+
 # set workdir
 WORKDIR /cod4
 
